@@ -5,6 +5,7 @@ python -m venv venv
 pip install django
 django-admin startproject project .
 
+
 Configurar o git
 
 
@@ -16,4 +17,7 @@ git init
 git add .
 git commit -m 'Mensagem'
 git log
-git remote add origin URL_DO_GIT
+git log --oneline
+git remote add origin URL_DO_GIT 
+git remote set-url origin URL_DO_GIT
+git push origin main -u
