@@ -21,3 +21,4 @@ git log --oneline
 git remote add origin URL_DO_GIT 
 git remote set-url origin URL_DO_GIT
 git push origin main -u
+git remote -v
