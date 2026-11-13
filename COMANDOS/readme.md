@@ -16,6 +16,7 @@ git config --global init.defaultBranch main
 # Configure o .gitignore
 git init
 git add .
+git status
 git commit -m 'Mensagem'
 git log
 git log --oneline
